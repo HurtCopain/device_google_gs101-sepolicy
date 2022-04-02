@@ -7,6 +7,9 @@ BOARD_SEPOLICY_DIRS += device/google/gs101-sepolicy/tracking_denials
 
 PRODUCT_PRIVATE_SEPOLICY_DIRS += device/google/gs101-sepolicy/private
 
+# Input
+BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/input
+
 # Display
 BOARD_SEPOLICY_DIRS += device/google/gs101-sepolicy/display/common
 BOARD_SEPOLICY_DIRS += device/google/gs101-sepolicy/display/gs101
